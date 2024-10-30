@@ -1,0 +1,203 @@
+.limitedNumbChosen{
+    width: 400px;
+}
+#lead_form input[type=text],
+#lead_form .rm-form-control,
+#lead_form [role="combobox"],
+#lead_form input[type="search"]{
+    background: white !important;
+    border: 1px solid #dddddd !important;
+    border-radius: 2px !important;
+    padding: 5px;
+    box-shadow: none !important;
+    margin: 0 0 10px !important;
+}
+/*form lead*/
+.panel-default .block-rm .block-submit .btn-lead{
+    max-width: 600px;
+    width: 100%;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-transform: none;
+    padding: 10px 20px !important;
+    line-height: 20px !important;
+}
+
+.block-lead #lead_form .panel-default .block-rm .rm-form-group .rm-form-control{
+    background: #fff;
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    font-size: 14px;
+    padding: 12px 20px !important;
+}
+.block-submit .btn-lead{
+    font-weight: 700;
+    background-color: #52b400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.block-lead .panel-default{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.block-rm .rm-form-group{
+    width: 100%;
+}
+.block-rm .rm-form-group input,textarea{
+    background: #fff;
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    padding: 12px 20px !important;
+    width: 100%;
+    margin: 0 0 10px !important;
+}
+.panel-default .block-rm .block-submit{
+    text-align: center;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-transform: none;
+    padding: 10px 20px !important;
+    line-height: 20px !important;
+}
+
+.back{float: right;
+    margin-top: -50px;
+    font-size: 13px;
+    line-height: 26px;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #0085ba;
+    color: #fff;
+}
+
+.tr-short th:nth-child(3) {
+    width: 160px;
+    text-align: center;
+}
+
+.tr-short th{
+    color: #fff !important;
+}
+.fieldset-manage{
+    width: 100%;
+    background: #fff;
+    border: solid 1px #dadada;
+}
+.fieldset-manage input{
+    min-width: 250px;
+}
+.table-noti tr{
+    display: grid;
+}
+.table-noti tr th{
+    padding-bottom: 0 !important;
+}
+
+.guide ul li{
+    font-size: 14px;
+}
+
+/*.block-lead{*/
+    /*width: 49%;*/
+    /*float: right;*/
+
+/*}*/
+.dynamic-field{
+    width: 49%;
+    float: left;
+    margin-right: 1% ;
+
+}
+.box-filedset{
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px #9c9c9c;
+}
+.box-embed{
+    width: 48%;
+    float: right;
+}
+
+.dynamic-field .rm-form-control{
+    background: #fff;
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    width: 100%;
+    margin: 0 0 10px !important;
+}
+
+.value_input_field{
+    background: #fff;
+    border: 1px solid #ddd !important;
+    border-radius: 4px !important;
+    width: 100%;
+    margin: 0 0 10px !important;
+    height: 45px !important;
+}
+.dynamic_field .selection span{
+    line-height: 33px!important;
+}
+#tbody_dynamic_field .dynamic-select{
+    padding: 17px;
+}
+
+/*setting aff*/
+.btn-notification-admin .submit{
+    text-align: center;
+}
+.btn-notification-admin .button{
+    max-width: 600px;
+    margin: auto;
+    width: 100%;
+}
+@media (max-width: 782px) {
+    .fieldset-manage{
+        width: 60%;
+    }
+}
+@media (max-width: 782px){
+    .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.check-column){
+        display: table-cell;
+        word-wrap: break-word;
+    }
+    .tr-short th{
+        word-wrap: break-word;
+    }
+}
+@media(max-width: 768px) {
+    .list-manage {
+        overflow: hidden;
+    }
+
+    .list-manage table.wp-list-table {
+        overflow-x: scroll;
+    }
+
+    table.wp-list-table {
+        display: inline-block;
+    }
+
+    table.wp-list-table .short-code {
+        min-width: 130px
+    }
+
+    table.wp-list-table .action {
+        min-width: 82px
+    }
+
+    /*dynamic-field*/
+    .dynamic-field {
+        width: 100%;
+    }
+}
+
